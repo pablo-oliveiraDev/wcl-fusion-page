@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;1,700&display=swap');
+body {
+    font-family: 'Public Sans';
+}
+
+/* reset config padrao */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+img{
+    max-width: 100%;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* fim reset */
+
+ /* inicio cabecalho */
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    max-width: 1170; /*resolucao tela de note max */
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+    background-color: #000;
+    
+}
+.cabecalho .titulo{
+ margin-left: -800px;
+
+}
+.cabecalho .titulo a{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+   
+}
+.cabecalho .titulo a:hover{
+    color: #DC143C;
+    
+}
+.cabecalho .menu .item{
+    display: inline;
+    margin: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.cabecalho .menu .item a{
+    color: #fff;
+}
+.cabecalho .menu .item a:hover{
+    color: #DC143C;
+    transition: 0.3s ease-in-out;
+}
+.logo{
+    width: 50px;
+    
+}
+/* fim cabecalho */
+
+/* inicio home */
+
+.body-home{
+ text-align: center;
+    height: 600px;
+    align-items: center;
+}
+.body-home h1{
+  
+    margin-top: 20px;
+
+ 
+    
+}
+.body-home .slogan{
+    padding: 20px auto;
+    margin: 50px 0px;
+    text-align: right;
+}
+
+
+
