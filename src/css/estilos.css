@@ -65,8 +65,10 @@ html{
 .cabecalho .menu .item a:hover{
     color: #DC143C;
     transition: 0.3s ease-in-out;
+    border-bottom:solid 3px #DC143C;
 }
 .logo{
+    margin-left: 20px;
     width: 50px;
     
 }
@@ -88,9 +90,51 @@ html{
 }
 .body-home .slogan{
     padding: 20px auto;
-    margin: 50px 0px;
+    margin: 50px 20px;
     text-align: right;
+    font-weight: 400;
 }
+.body-home .texto p{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 2px #000;
+    font-size: 35px;
+    margin-left: 250px;
+   
+
+}
+.body-home .imagem{
+    margin: -400px 0 0 750px;
+    align-items: flex-end;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    justify-content: space-between;
+    border: solid 2px #000;
+    background-image:url(../imagens/animated-karate-image-0033.gif);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    margin-right: -800px;
+}
+.body-modal{
+    text-align: center;
+    height: 600px;
+}
+.body-modal .paine-1.mostrar{
+    opacity: 1;
+}
+
+.body-modal .painel-1{
+  
+    opacity: 0;
+}
+
 
 
 
