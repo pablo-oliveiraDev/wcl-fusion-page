@@ -105,6 +105,8 @@ html{
     border: solid 2px #000;
     font-size: 35px;
     margin-left: 250px;
+    background-color: #000;
+    color: #fff;
    
 
 }
@@ -116,9 +118,9 @@ html{
     height: 400px;
     justify-content: space-between;
     border: solid 2px #000;
-    background-image:url(../imagens/animated-karate-image-0033.gif);
+    background-image:url(../imagens/edmar.jpg);
     background-repeat: no-repeat;
-    
+    background-size:cover;
     background-position: center;
     margin-right: -800px;
 }
@@ -133,6 +135,9 @@ html{
 .body-modal .painel-1{
   
     opacity: 0;
+}
+.body-modal .painel-1 .imagem1{
+    
 }
 
 
