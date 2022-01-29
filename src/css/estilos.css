@@ -118,26 +118,52 @@ html{
     height: 400px;
     justify-content: space-between;
     border: solid 2px #000;
-    background-image:url(../imagens/edmar.jpg);
+    background-image: url('../imagens/edmar.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     margin-right: -800px;
 }
 .body-modal{
-    text-align: center;
-    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    position: relative;
 }
-.body-modal .paine-1.mostrar{
+.body-modal .painel1.mostrar{
     opacity: 1;
 }
 
-.body-modal .painel-1{
-  
+.body-modal .painel1{
+    background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ min-width: 100%;
+ height: 100%;   
+ position: absolute;
+ z-index: -1;
+ filter: brightness(70%);
     opacity: 0;
+ transition: 0.3s ease-in-out;
+ 
 }
-.body-modal .painel-1 .imagem1{
+.body-modal .imagem1{
+    background-image: url('../imagens/jiu-jitsu1.jpg');
+    flex-direction: column; 
+    color: #fff;
     
+}
+.body-modal .imagem1 .textimg{
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    
+}
+.body-modal .imagem2{
+    background-image: url('../imagens/kravmagar.jpg');
 }
 
 
