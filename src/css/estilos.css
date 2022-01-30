@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;1,700&display=swap');
 body {
     font-family: 'Public Sans';
+    display:inherit;
 }
 
 /* reset config padrao */
@@ -28,6 +29,7 @@ html{
 /* fim reset */
 
  /* inicio cabecalho */
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -77,6 +79,7 @@ html{
 /* inicio home */
 
 .body-home{
+    
  text-align: center;
     height: 600px;
     align-items: center;
@@ -124,7 +127,11 @@ html{
     background-position: center;
     margin-right: -800px;
 }
+/* fim da home */
+
+/* inicio madalidades */
 .body-modal{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,6 +143,7 @@ html{
 }
 
 .body-modal .painel1{
+    display: flex;
     background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
@@ -149,23 +157,195 @@ html{
  
 }
 .body-modal .imagem1{
-    background-image: url('../imagens/jiu-jitsu1.jpg');
-    flex-direction: column; 
-    color: #fff;
+    background-image: url('../imagens/jiu-jitsu3.jpg');
+    
+    
     
 }
 .body-modal .imagem1 .textimg{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    justify-content:space-between ;
     flex-direction: column;
     width: 400px;
     height: 400px;
-    
+    color:#fff;
+    font-weight: 600;
+    filter: brightness(100%);
+    padding: 18px;
+    background-color:  #000;
+    margin-top: 200px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    border-radius: 20%;
 }
 .body-modal .imagem2{
-    background-image: url('../imagens/kravmagar.jpg');
+    background-image: url('../imagens/muay-thai.jpg');
+}
+.body-modal .imagem2 .textimg{
+    font-size: 30px;
+    text-align: center;
+    justify-content:space-between ;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    color:#fff;
+    font-weight: 600;
+    filter: brightness(100%);
+    padding: 18px;
+    background-color:  #000;
+    margin-top: 200px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    border-radius: 20%;
 }
 
+.body-modal .imagem3{
+    background-image: url('../imagens/krav-maga.jpg');
+}
+
+.body-modal .imagem3 .textimg{
+    font-size: 25px;
+    text-align: center;
+    justify-content:space-between ;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    color:#fff;
+    font-weight: 600;
+    filter: brightness(100%);
+    padding: 18px;
+    background-color:  #000;
+    margin-top: 200px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    border-radius: 20%;
+}
+
+.body-modal .titulo{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: calc(1em + 1vw);
+}
+.body-modal .seta{
+    background-image: url(../imagens/seta.png);
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-indent: 100%;
+   overflow: hidden;
+   background-repeat: no-repeat;
+}
+.body-modal .seta.btn-voltar{
+    left: 20px;
+    transform: rotateY(180deg);
+    }
+.body-modal .seta.btn-avancar{
+    right: 20px;
+}
+    /* fim da modalidades */
+
+    /* inicio somos */
+
+.body-somos{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background-color: #000;
+}
+.body-somos .titulo{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.body-somos .text{
+    margin-top: 40px;
+    justify-content:space-between ;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    font-size: 25px;
+}
+/* fim da somos */
+
+/* inicio da saiba */
 
 
+.body-saiba .ctwcl .endereco{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.body-saiba .ctwcl .maps{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* fim do saiba */
+
+/* inicio do rodape */
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #000080;
+    align-items: center;
+    margin: 0 auto;
+    height: 80px;
+    
+    
+}
+
+.rodape .tituloroda{
+    display: flex;
+    margin-right: 800px;
+    text-align: right;
+    
+}
+.rodape .tituloroda a{
+    color: #fff;
+    font-family: 700;
+    text-align: left;
+}
+.rodape .logoroda {
+  margin-left: 20px;
+    width: 50px;
+    
+}
+.rodape .rede-sociais{
+        display: flex;
+        color: #fff;
+        
+}
+ .rodape .rede-sociais a{
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+    font-size: 30px;
+    border: 2px solid #111;
+    border-radius: 50%;
+    padding: 15px;
+    width: 60px;
+    transition: 0.3s ease-in-out;
+    background-color: #fff;
+    
+ }
+ .rodape .rede-sociais a:hover{
+    background-color: #DC143C;
+    transition: 0.3s ease-in-out;
+   text-decoration-color: #fff;
+}
 
