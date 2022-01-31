@@ -90,7 +90,7 @@ html{
        }
        
 }
-@media (max-width:412px) {
+@media (max-width:414px) {
     .cabecalho .menu .item{
         font-size: 15px;
         margin: 0 10px;
@@ -162,7 +162,7 @@ html{
     background-position: center;
     margin-right: -800px;
 }
-@media (max-width:412px) {
+@media (max-width:414px) {
     .body-home .texto p{
       margin: 0 auto;
        font-size: 28px;
@@ -297,7 +297,7 @@ html{
     right: 20px;
 }
 
-@media (max-width:412px) {
+@media (max-width:414px) {
     .body-modal .titulo{
         font-size: calc(0.8em + 1vw);
         text-align: center;
@@ -364,7 +364,7 @@ html{
     font-size: 30px;
     font-weight: 800;
 }
-@media (max-width:412px) {
+@media (max-width:414px) {
     .body-saiba .ctwcl iframe{
         width: 412px;
     }
