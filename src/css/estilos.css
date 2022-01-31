@@ -90,7 +90,10 @@ html{
        }
        
 }
-@media (max-width:414px) {
+@media(max-width:416px) {
+    .cabecalho{
+       width: 100%;
+    }
     .cabecalho .menu .item{
         font-size: 15px;
         margin: 0 10px;
@@ -162,7 +165,7 @@ html{
     background-position: center;
     margin-right: -800px;
 }
-@media (max-width:414px) {
+@media(max-width:416px) {
     .body-home .texto p{
       margin: 0 auto;
        font-size: 28px;
@@ -175,6 +178,7 @@ html{
     }
     .body-home .imagem{
         margin: 0 auto;
+        width: 100%;
     }
 
 }
@@ -297,7 +301,7 @@ html{
     right: 20px;
 }
 
-@media (max-width:414px) {
+@media(max-width:416px) {
     .body-modal .titulo{
         font-size: calc(0.8em + 1vw);
         text-align: center;
@@ -364,9 +368,9 @@ html{
     font-size: 30px;
     font-weight: 800;
 }
-@media (max-width:414px) {
+@media(max-width:416px) {
     .body-saiba .ctwcl iframe{
-        width: 412px;
+        width: 414px;
     }
 
 }
@@ -435,7 +439,7 @@ html{
     }
 
 }
-@media (max-width:412px) {
+@media(max-width:416px) {
     .rodape{
         justify-content: space-between;
     }
