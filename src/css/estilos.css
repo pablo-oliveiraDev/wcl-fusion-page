@@ -74,6 +74,41 @@ html{
     width: 50px;
     
 }
+@media(max-width:1280px){
+    .cabecalho{
+       
+    }
+    .logo{
+        display: block;
+    }
+    .cabecalho .titulo{
+        margin-left: -550px;
+       
+       }
+       .cabecalho .menu .item{
+           margin: 20px;
+       }
+       
+}
+@media (max-width:412px) {
+    .cabecalho .menu .item{
+        font-size: 15px;
+        margin: 0 10px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .cabecalho .titulo{
+        margin-left: -170px;
+        font-size: 15px;
+        margin-top: 10px;
+       
+       }
+       .logo{
+        
+        margin-top: -60px;
+    }
+}
 /* fim cabecalho */
 
 /* inicio home */
@@ -126,6 +161,22 @@ html{
     background-size:cover;
     background-position: center;
     margin-right: -800px;
+}
+@media (max-width:412px) {
+    .body-home .texto p{
+      margin: 0 auto;
+       font-size: 28px;
+       flex-direction: column;
+       text-align: left;
+       justify-content: space-between;
+       width: 100%;
+       flex-wrap: wrap;
+       display: none;
+    }
+    .body-home .imagem{
+        margin: 0 auto;
+    }
+
 }
 /* fim da home */
 
@@ -245,6 +296,25 @@ html{
 .body-modal .seta.btn-avancar{
     right: 20px;
 }
+
+@media (max-width:412px) {
+    .body-modal .titulo{
+        font-size: calc(0.8em + 1vw);
+        text-align: center;
+        margin: 0 auto;
+    }
+    .body-modal .imagem1 .textimg{
+        display: none;
+    }
+    .body-modal .imagem2 .textimg{
+        display: none;
+    }
+    .body-modal .imagem3 .textimg{
+        display: none;
+    }
+
+    
+}
     /* fim da modalidades */
 
     /* inicio somos */
@@ -274,6 +344,8 @@ html{
     color: #FFFFFF;
     font-size: 25px;
 }
+
+
 /* fim da somos */
 
 /* inicio da saiba */
@@ -291,6 +363,12 @@ html{
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 800;
+}
+@media (max-width:412px) {
+    .body-saiba .ctwcl iframe{
+        width: 412px;
+    }
+
 }
 
 /* fim do saiba */
@@ -348,4 +426,46 @@ html{
     transition: 0.3s ease-in-out;
    text-decoration-color: #fff;
 }
+
+@media(max-width:1280px){
+    .rodape .rede-sociais a{
+        margin: 0 10px;
+        padding: 5px;
+        border-radius: 55%;
+    }
+
+}
+@media (max-width:412px) {
+    .rodape{
+        justify-content: space-between;
+    }
+    .rodape .rede-sociais{
+        text-align: right;
+        margin-top: -100px;
+        margin-right: 0px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .rodape .rede-sociais a{
+        display: inherit;
+        align-items: flex-end;
+       
+       
+       
+    }
+    .rodape .tituloroda a{
+        
+        font-size: 10px;
+        margin: 15px 0 0 5px
+       
+        
+        
+    }
+    .rodape .logoroda{
+        margin-top: -20px;
+        margin-left: 10px;
+        
+    }
+}
+
 
