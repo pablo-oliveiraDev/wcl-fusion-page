@@ -96,6 +96,25 @@ html{
        }
        
 }
+@media (max-width:886px) {
+   
+    .cabecalho .menu ul{
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    .cabecalho .menu .item {
+        margin: 10px;
+
+    }
+    .cabecalho .titulo{
+        margin-left: -200px;
+       
+       }
+
+}
+    
+
 @media(max-width:416px) {
     .cabecalho{
        width: 100%;
@@ -188,6 +207,17 @@ html{
 
 
 }
+@media (max-width:886px) {
+    
+    .body-home .texto{
+    opacity: 0;
+    }
+    .body-home .imagem{
+        margin: -416px 0 0 200px;
+    }
+
+}
+
 @media(max-width:416px) {
     .body-home .texto p{
       /* margin: 0 auto; */
@@ -501,6 +531,18 @@ html{
     }
 
 }
+
+@media (max-width:886px) {
+    .rodape .rede-sociais{
+        margin-left: 600px;
+        margin-top: -80px;
+    }
+    .rodape .tituloroda{
+        margin-right: 670px;
+    }
+
+}
+
 @media(max-width:416px) {
     .rodape{
         justify-content: space-between;
