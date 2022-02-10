@@ -115,7 +115,7 @@ html{
 }
     
 
-@media(max-width:416px) {
+@media(max-device-width: 416px) {
     .cabecalho{
        width: 100%;
     }
@@ -130,7 +130,7 @@ html{
         justify-content: center;
     }
     .cabecalho .titulo{
-        margin-left: -150px;
+        margin-left: -130px;
         font-size: 15px;
         margin-top: 35px;
        
@@ -539,41 +539,52 @@ html{
     }
     .rodape .tituloroda{
         margin-right: 670px;
+        
     }
 
 }
 
-@media(max-width:416px) {
+@media (max-device-width:416px )  {
     .rodape{
         justify-content: space-between;
     }
     .rodape .rede-sociais{
         text-align: right;
-        margin-top: -100px;
-        margin-right: 0px;
-        display: flex;
+        /* margin-top: -150px; */
+        margin-left: 165px;
+       
         align-items: flex-end;
+        
     }
     .rodape .rede-sociais a{
         display: inherit;
         align-items: flex-end;
+        margin: 5px;
        
        
        
     }
-
    
-
-    .rodape .tituloroda a{
+    .rodape .tituloroda {
         
         font-size: 10px;
-        margin: 15px 0 0 5px
+        margin-top: 0px;
+        margin-left: 10px;
+        
        
         
         
     }
+    .rodape .tituloroda a{
+        display: inline;
+        width:150px;
+        font-size: 15px;
+
+
+    }
+
     .rodape .logoroda{
-        margin-top: -20px;
+        margin-top: 5px;
         margin-left: 10px;
         
     }
