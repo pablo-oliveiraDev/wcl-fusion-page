@@ -56,39 +56,43 @@ html{
     color: #DC143C;
     
 }
+.cabecalho .menu ul{
+    margin-top: 20px;
+}
+
 .cabecalho .menu .item{
     display: inline;
     margin: 15px;
     text-transform: uppercase;
     color: #fff;
+    
 }
 .cabecalho .menu .item a{
     color: #fff;
+    
 }
 .cabecalho .menu .item a:hover{
     color: #DC143C;
     transition: 0.3s ease-in-out;
-    border-bottom:solid 3px #DC143C;
+    /* border-bottom:solid 3px #DC143C; */
 }
 .logo{
     margin-left: 20px;
     width: 50px;
     
 }
-@media(max-width:1280px){
+@media(max-width:1290px){
    
     .logo{
         display: block;
+
     }
-    .cabecalho .titulo{
+        .cabecalho .titulo{
         margin-left: -280px;
        
        }
        .cabecalho .menu .item{
            margin: 20px;
-       }
-       .menu ul{
-        margin-bottom: 0;
        }
        
 }
