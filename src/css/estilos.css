@@ -552,29 +552,29 @@ html{
     }
     .rodape .rede-sociais{
         text-align: right;
-        /* margin-top: -150px; */
-        margin-left: 140px;
        
+        margin-left: 40px;
+       margin-top: 0px;
         align-items: flex-end;
         
     }
     .rodape .rede-sociais a{
         display: inherit;
         align-items: flex-end;
-        margin: 5px;
-       
-       
-       
+        margin: 0 20px;
+        border-radius: 60%;
+        font-size: 30px;
+       padding: 10px;
     }
    
     .rodape .tituloroda {
         
         font-size: 10px;
-        margin-top: 0px;
+        margin-top: px;
         /* margin-left: 10px; */
         padding: 0;
         width: 76%;
-       
+       display: none;
         
         
     }
@@ -583,14 +583,14 @@ html{
         width:150px;
         font-size: 15px;
         margin-left: 15px;
-
+        
 
     }
 
     .rodape .logoroda{
         margin-top: 5px;
         margin-left: 25px;
-        
+        display: none;
     }
 }
 
