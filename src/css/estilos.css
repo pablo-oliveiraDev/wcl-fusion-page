@@ -178,6 +178,7 @@ html{
     margin-left: 250px;
     background-color: #000;
     color: #fff;
+    
    
 
 }
@@ -317,7 +318,7 @@ html{
 }
 
 .body-modal .imagem3 .textimg{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     justify-content:space-between ;
     flex-direction: column;
@@ -326,7 +327,7 @@ html{
     color:#fff;
     font-weight: 600;
     filter: brightness(100%);
-    padding: 18px;
+    padding: 40px 15px 0 15px;
     background-color:  #000;
     margin-top: 200px;
     margin-left: 80px;
@@ -339,6 +340,7 @@ html{
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: calc(1em + 1vw);
+    margin-top: -100px;
 }
 .body-modal .seta{
     background-image: url(../imagens/seta.png);
